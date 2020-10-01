@@ -11,6 +11,7 @@
 			<div class="message"> 
   			<p class="content"><%= message.content %></p> 
   			<p class="time"><%= message.created_at %></p> 
+        <%= link_to 'Read more ...', message_path(message)%>
 			</div> 
 		<% end %>
     <%= link_to 'New Message', "messages/new" %> 

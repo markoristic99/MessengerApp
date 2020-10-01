@@ -1,0 +1,16 @@
+<div class="header">
+  <div class="container">
+    <img src="https://content.codecademy.com/courses/learn-rails/img/logo-1m.svg">
+    <h1>Messenger</h1>
+  </div>
+</div>
+
+<div class="messages">
+  <div class="container">
+			<div class="message"> 
+  			<p class="content"><%= @message.content %></p> 
+  			<p class="time"><%= @message.created_at %></p> 
+            <%= link_to 'Delete Message', message_path(@message), method: :delete %> 
+	</div> 
+  </div>
+</div>
