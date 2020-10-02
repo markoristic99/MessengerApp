@@ -3,3 +3,4 @@ log/
 tmp/
 
 node_modules/.yarn-integrity
+node_modules
